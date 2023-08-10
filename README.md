@@ -13,8 +13,8 @@ This guide outlines the steps to perform web crawling, indexing, and using Apach
 
 ## Prerequisites
 
-- Apache Nutch (version: xxxx)
-- Solr (version: xxxx)
+- Apache Nutch (version: 1.19)
+- Solr (version: 8.11.2)
 - Terminal or Command Prompt
 
 ## Step 1: Cleaning and Setup
@@ -52,6 +52,7 @@ This guide outlines the steps to perform web crawling, indexing, and using Apach
     ```
     bin/crawl --num-threads 120 crawl 2
     ```
+    You can use --num-threads to increase/decrease the CPU threads
 
 6. Store crawled links in the dump directory:
     ```
