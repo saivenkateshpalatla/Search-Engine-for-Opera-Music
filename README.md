@@ -13,8 +13,8 @@ This guide outlines the steps to perform web crawling, indexing, and using Apach
 
 ## Prerequisites
 
-- Apache Nutch (version: 1.19)
-- Solr (version: 8.11.2)
+- [Apache Nutch](https://www.apache.org/dyn/closer.lua/nutch/1.19/apache-nutch-1.19-bin.tar.gz) (version: 1.19)
+- [Solr](https://www.apache.org/dyn/closer.lua/lucene/solr/8.11.2/solr-8.11.2.tgz?action=download) (version: 8.11.2)
 - Terminal or Command Prompt
 
 ## Step 1: Cleaning and Setup
